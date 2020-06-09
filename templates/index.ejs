@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -30,12 +31,14 @@
 
             <%- include('./includes/footer') %>
     </div>
+    <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>
     <script>
         $('#sidebar').stickySidebar({
             topSpacing: 80,
             // bottomSpacing: 60
         });
     </script>
+    <script src="<%= themeConfig.domain %>/media/js/plugin.js"></script>
 </body>
 
 </html>
